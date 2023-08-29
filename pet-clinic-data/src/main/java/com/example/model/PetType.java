@@ -1,4 +1,4 @@
-package com.example.sfg_pet_clinic.model;
+package com.example.model;
 
 public class PetType {
 
