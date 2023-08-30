@@ -1,6 +1,6 @@
 package com.example.model;
 
-public class Person {
+public class Person extends BaseEntity{
     public void setFirstName(String firstName) {
         this.firstName = firstName;
     }
