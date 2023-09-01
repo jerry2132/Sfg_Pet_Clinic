@@ -1,4 +1,4 @@
-package com.example.model;
+package com.example.sfgpetclinic.model;
 
 public class PetType extends BaseEntity{
 

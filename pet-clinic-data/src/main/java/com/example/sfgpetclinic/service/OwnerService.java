@@ -1,6 +1,6 @@
-package com.example.service;
+package com.example.sfgpetclinic.service;
 
-import com.example.model.Owner;
+import com.example.sfgpetclinic.model.Owner;
 
 
 

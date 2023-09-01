@@ -1,4 +1,4 @@
-package com.example.service.map;
+package com.example.sfgpetclinic.service.map;
 
 import java.util.HashMap;
 import java.util.HashSet;

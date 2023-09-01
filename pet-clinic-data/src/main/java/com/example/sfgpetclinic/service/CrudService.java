@@ -1,4 +1,4 @@
-package com.example.service;
+package com.example.sfgpetclinic.service;
 
 import java.util.Set;
 
