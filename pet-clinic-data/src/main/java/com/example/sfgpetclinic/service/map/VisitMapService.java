@@ -2,9 +2,11 @@ package com.example.sfgpetclinic.service.map;
 
 import com.example.sfgpetclinic.model.Visit;
 import com.example.sfgpetclinic.service.VisitService;
+import org.springframework.stereotype.Service;
 
 import java.util.Set;
 
+@Service
 public class VisitMapService extends AbstractMapService<Visit, Long> implements VisitService {
 
 
@@ -23,7 +25,7 @@ public class VisitMapService extends AbstractMapService<Visit, Long> implements 
         if(visit.getPet()==null||visit.getPet().getOwner()==null||visit.getPet().getId()==null
         ||visit.getPet().getOwner().getId()==null)
         {
-            throw new RuntimeException("Invalid Input")
+            throw new RuntimeException("Invalid Input");
         }
         return super.save(visit);
     }
