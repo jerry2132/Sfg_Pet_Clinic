@@ -1,6 +1,6 @@
 package com.example.sfgpetclinic.controller;
 
-import com.example.sfgpetclinic.service.OwnerService;
+import com.example.sfgpetclinic.services.OwnerService;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;

@@ -1,7 +1,8 @@
 package com.example.sfgpetclinic.bootstrap;
 
 import com.example.sfgpetclinic.model.*;
-import com.example.sfgpetclinic.service.*;
+import com.example.sfgpetclinic.services.*;
+import jakarta.transaction.Transactional;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
 
@@ -25,6 +26,7 @@ public class DataLoader implements CommandLineRunner {
     }
 
     @Override
+    @Transactional
     public void run(String... args) throws Exception {
         int count = petTypeService.findAll().size();
 

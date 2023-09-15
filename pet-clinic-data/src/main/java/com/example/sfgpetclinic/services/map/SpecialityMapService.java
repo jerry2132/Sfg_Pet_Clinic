@@ -1,7 +1,7 @@
-package com.example.sfgpetclinic.service.map;
+package com.example.sfgpetclinic.services.map;
 
 import com.example.sfgpetclinic.model.Speciality;
-import com.example.sfgpetclinic.service.SpecialityService;
+import com.example.sfgpetclinic.services.SpecialityService;
 import org.springframework.context.annotation.Profile;
 import org.springframework.stereotype.Service;
 

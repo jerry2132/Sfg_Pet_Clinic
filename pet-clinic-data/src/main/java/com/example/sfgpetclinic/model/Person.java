@@ -3,7 +3,11 @@ package com.example.sfgpetclinic.model;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.MappedSuperclass;
+import lombok.Getter;
+import lombok.Setter;
 
+@Getter
+@Setter
 @MappedSuperclass
 public class Person extends BaseEntity{
     @Column(name = "first_name")
@@ -18,14 +22,4 @@ public class Person extends BaseEntity{
 
     private String firstName;
     private String lastName;
-
-    public String getLastName() {
-        return lastName;
-    }
-
-    public String getFirstName() {
-        return firstName;
-    }
-
-
 }
