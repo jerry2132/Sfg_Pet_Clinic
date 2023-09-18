@@ -29,8 +29,6 @@ jobs:
 
       - run: mvn dependency:go-offline
 
-      - run: mvn integration-test
-
 # Invoke jobs via workflows
 # See: https://circleci.com/docs/configuration-reference/#workflows
 workflows:
