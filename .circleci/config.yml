@@ -27,7 +27,7 @@ jobs:
               - v1-dependencies-
       - run:
           name: Build
-          command: mvn -B -DskipTests clean package
+          command: mvn install -DskipTests
       # Then run your tests!
       - run: mvn dependency:go-offline
       - run:
